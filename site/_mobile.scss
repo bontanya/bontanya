@@ -1,0 +1,177 @@
+@media (max-width: 767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header{
+        padding-top: 32px;
+        border-bottom: none;
+        &-input{
+            display: none;
+        }
+        &-link{
+            display: none;
+        }
+    }
+    .menu-mobile{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .logo{
+        &-image{
+            width: 99px;
+        }
+    }
+    .title{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+    .slogan{
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .catalog-link{
+        font-size: 14px;
+    }
+    .sub-title{
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 32px;
+    }
+    .for-box{
+        padding-top: 0;
+    }
+    .for-products{
+        grid-template-columns: repeat(4,1fr);
+        gap: 16px;
+        padding-bottom: 32px;
+    }
+    .for-item{
+        grid-column: span 4;
+        height: 375px;
+        font-size: 28px;
+        line-height: 34px;
+        &-big{
+            height: 244px;
+        }
+    }
+    .products-offer{
+        margin-top: 0px;
+    }
+    .title-name{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 32px;
+    }
+    .discount-price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .full-price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .product-content{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .product{
+        grid-column: span 4;
+        width: fit-content;
+    }
+    .product-images{
+        height: 226px; 
+    }
+   
+    .footer-items{
+        padding-right: 0;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .forms{
+        padding-top: 34px;
+        padding-left: 53px;
+        padding-right: 53px;
+    }
+    .footer{
+        height: 374px;
+        &-menu{
+            padding-right: 100px;
+        }
+    }
+    .news{
+       margin-bottom: 0;
+    }
+
+    /* Каталог */
+    .top-catalog{
+        height: 400px;
+        background-image: url(img/Catalog/background/bcg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .catalog-title{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .products-offer-top{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .top-link{
+        font-size: 14px;
+    }
+    nav{
+        padding-top: 0;
+    }
+    .select-option{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    /* Корзина */
+    .top-cart{
+        height: 400px;
+        background-image: url(img/cart/bcg-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .cart-img{
+        display: none;
+    }
+    .cart-buttons{
+        padding-top: 0;
+    }
+    .cart-form{
+        grid-column: span 12;
+    }
+    .cart-button-function{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .cart-button-function:nth-of-type(2){
+        background: #000000;
+        color: white;
+    }
+    .cart-name-box{
+        display: none;
+    }
+    .cart-content{
+        grid-column: span 12;
+    }
+}
